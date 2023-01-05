@@ -30,4 +30,12 @@
     It basically takes the minimum weight edge in a path
     as an argument and returns the maximum weight between
     two nodes.
-    
+
+
+Answers of Qns:-
+Qns1: Write down your brief thoughts on how you approached this problem.
+
+Ans1: Kruskal's algorithm is an optimal method for finding the minimum spanning tree of a given graph. It follows a greedy approach for finding a minimum spanning tree by connecting one node to another only if it has the lowest cost compared to all other options available. This problem reflects the minimum spanning tree concept and can be solved using this algorithm. I studied different minimum spanning tree algorithms such as Prim, Boruvka, and Kruskal, and found Kruskal's method to be the most efficient. I implemented this technique and obtained the required output successfully. The algorithm works by sorting all the edges in the graph in ascending order based on their weights. Then, it starts from the edge with the lowest weight and checks if connecting it creates a cycle with the already connected edges. If it doesn't, the edge is added to the minimum spanning tree, otherwise, it is discarded. This process is repeated until all the edges are checked and a minimum spanning tree is obtained.
+
+Qns2: What is the complexity of your solution? Can it be improved?
+Ans2: The method implemented in the code is used to find the minimum spanning tree in a graph. This algorithm works by first sorting the edges of the graph based on their weights. It then begins adding edges to the minimum spanning tree, starting with the edge that has the smallest weight. As it adds edges, it ensures that they do not create cycles by only connecting disconnected components. However, the code can be improved by avoiding the formation of cycles from edges that can slow down the execution process. Additionally, the code may become more complex when dealing with edges that have the same weight, so a simpler logic can be implemented to reduce complexity in these cases. Overall, this method is effective for solving minimum spanning tree problems, although it can be enhanced for improved efficiency.
