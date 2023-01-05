@@ -33,8 +33,8 @@
 
 
 Answers of Qns:-
-Qns1: Write down your brief thoughts on how you approached this problem.
 
+Qns1: Write down your brief thoughts on how you approached this problem.
 Ans1: Kruskal's algorithm is an optimal method for finding the minimum spanning tree of a given graph. It follows a greedy approach for finding a minimum spanning tree by connecting one node to another only if it has the lowest cost compared to all other options available. This problem reflects the minimum spanning tree concept and can be solved using this algorithm. I studied different minimum spanning tree algorithms such as Prim, Boruvka, and Kruskal, and found Kruskal's method to be the most efficient. I implemented this technique and obtained the required output successfully. The algorithm works by sorting all the edges in the graph in ascending order based on their weights. Then, it starts from the edge with the lowest weight and checks if connecting it creates a cycle with the already connected edges. If it doesn't, the edge is added to the minimum spanning tree, otherwise, it is discarded. This process is repeated until all the edges are checked and a minimum spanning tree is obtained.
 
 Qns2: What is the complexity of your solution? Can it be improved?
