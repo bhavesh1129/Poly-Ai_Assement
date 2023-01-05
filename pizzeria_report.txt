@@ -1,0 +1,33 @@
+(find)
+1. Find parent nodes of a node.
+
+(init)
+2. Using Kruskal's Algorithm.
+3. Using Dijkstra's Algorithm.
+
+(union)
+4. Attach smaller rank tree under root of high rank weight_to_current_node.
+5. Write a function to find set the parent of a nodeyroot:
+    if ranks are the same, then make one a root and increment its rank by one.
+
+(finding MST)
+6. Creates a minimum spanning tree for a given coordniates and returns the minimum spanning tree.
+7. It returns a list containing a list of [node1, node2, weight] and values that belong to the minimum spanning tree.
+8. Then store the resultant minimum spanning.
+9. Sort graph acording to edge size.
+10. Create n subsets with single elements.
+11. Now the number of edges to be taken is n-1, pick the smallest edge and increment index to consider the ext largest:
+    if including this edge doesn't cause a cycle include it in result
+    else sicard the edge
+
+(finding the shortest path)
+12. Find the shortest weight path in a graph using Dijkstra's algorithm.
+    It basically takes start, end and mst as an argument
+    and returns the shortest path from start to end.
+
+(getting the max weight)
+13. Find maximum weight between two nodes in a path.
+    It basically takes the minimum weight edge in a path
+    as an argument and returns the maximum weight between
+    two nodes.
+    
